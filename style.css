@@ -1,0 +1,75 @@
+header {
+    background-color: lightgray;
+    padding: 20px 0px;
+    
+}
+
+header .caixa  {
+    position: relative;
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+header .caixa nav {
+    position: absolute;
+    top: 120px;
+    right: 0px;
+    
+}
+
+header .caixa nav li {
+    display: inline;
+    margin-left: 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    background: url("imagens/bg.jpg");
+    padding: 40px;
+}
+
+.copywright{
+    color: aliceblue;
+    font-size: 13px;
+    margin-top: 20px;
+    
+}
+
+@media screen and (max-width:480px){
+    header .caixa{
+        width: auto;
+    }
+
+    header h1 {
+        text-align: center;
+    }
+
+    header .caixa nav{
+        position: static;
+    }
+
+    header .caixa nav li {
+        margin-left: 0.5em;
+    }
+
+    header .caixa nav {
+        margin: 0 auto;
+    }
+
+
+}
